@@ -1,0 +1,383 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/*HEADER*/
+header{
+    height: 100vh;
+    background-image: url(Imágenes/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+    font-size: 16px;
+    margin: 10px;
+    color: #f5f0ed;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+.navitem{
+    margin: 10px;
+    color: #f5f0ed;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 255px;
+    font-size: 44px;
+    color: #f5f0ed;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sep{
+    width: 10%;
+    margin-top: 90px;
+}
+
+.ph{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #f5f0ed;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*HEADER*/
+
+
+
+
+
+/*BODY*/
+
+
+/*Seccion 1*/
+.seccion1{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.tit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.card{
+    font-size: 28px;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+}
+
+.c1{
+    color: #ded6c0;
+    background-color: #d03b40;
+}
+
+.c2{
+    color: #d03b40;
+    background-color: #ded6c0;
+}
+
+.desc{
+    margin-top: 30px;
+}
+/*Seccion 1*/
+
+
+
+
+
+
+/*Seccion 2*/
+
+.seccion2{
+    width: 100%;
+    height: 85vh;
+    background-image: url(Imágenes/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+
+}
+
+
+.tit2{
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #f5f0ed;
+    font-weight: bold;
+}
+
+
+.desc2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color:  #f5f0ed;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.sep2{
+    margin-top: 40px;
+    width: 10%;
+}
+
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.boton{
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-width: 4px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*Seccion 2*/
+
+
+
+
+/*seccion3*/
+.seccion3{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f0ed;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+
+.logo1{
+    float: left;
+    padding-right: 17px;
+}
+
+.produc1{
+    padding-top: 100px;
+    padding-left: 35px;
+    
+}
+
+.logo2{
+    float: left;
+    padding-right: 17px;
+}
+
+.produc2{
+    padding-top: 90px;
+    padding-left: 35px;
+}
+
+.text2{
+    padding-top: 20px;
+}
+
+
+.logo3{
+    float: left;
+    padding-right: 17px;
+}
+
+.produc3{
+    padding-top: 70px;
+    padding-left: 35px;
+}
+
+.text3{
+    padding-top: 15px;
+}
+
+
+.logo4{
+    float: left;
+    padding-right: 17px;
+}
+
+
+.produc4{
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+
+.text4{
+    padding-top: 15px;
+}
+
+
+.ddesc{
+    margin-top: 4px;
+    line-height: 1.6;
+}
+/*seccion3*/
+
+
+
+
+/*seccion4*/
+.seccion4{
+   display: flex;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+.c3{
+    background-color: #ded6c0;
+    color: #d03b40;
+    
+}
+
+.tit3{
+    padding-top: 170px;
+    color: #d03b40;
+    font-weight: bold;
+}
+
+.desc3{
+    margin-top: 30px;
+}
+
+.c4{
+    background-color: #d03b40;
+    color:  #ded6c0;
+}
+
+.tit4{
+    padding-top: 170px;
+    color:  #ded6c0;
+    font-weight: bold;
+    
+}
+
+.desc4{
+    margin-top: 30px;
+}
+/*seccion4*/
+
+/*BODY*/
+
+
+
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #241d1b;
+}
+
+.pfoot{
+    color: #f5f0ed;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+/*footer*/
